@@ -1,6 +1,7 @@
 package constants
 
 const (
-	LOG_INFO  = 1
-	LOG_ERROR = 2
+	// Logger related
+	LOG_INFO  = "info"
+	LOG_ERROR = "error"
 )

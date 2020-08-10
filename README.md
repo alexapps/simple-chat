@@ -1,11 +1,11 @@
 # Chat example
 
-## The back folder consist of
+## The "back" folder consist of
 1. api service that handles http and ws communication with the Web
 2. auth service responsible for the oAuth 
 3. chat service - the chat itself.
 
-## The fron folder will consist the Web part. It could be the Angular/React implementation
+## The "front" folder will consist the Web part. It could be the Angular/React implementation
 
 ### The things to be done:
 #### common:

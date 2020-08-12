@@ -1,8 +1,8 @@
 package router
 
 import (
-	"bitbucket.org/and_and/nbb-go-api/endpoints/groups"
-	"bitbucket.org/and_and/nbbnub/logger"
+	groups "github.com/alexapps/simple-chat/back/api/endpoints/groups"
+	logger "github.com/alexapps/simple-chat/back/api/log"
 	"github.com/labstack/echo"
 )
 

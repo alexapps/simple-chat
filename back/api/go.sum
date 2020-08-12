@@ -1,4 +1,4 @@
-bitbucket.org/and_and/nbb-go-api v0.0.0-20190312121521-1899eb451945/go.mod h1:b21TqM5781kv9NtQItXW5tK+p70QRdx7HQAtzk603Es=
+github.com/alexapps/simple-chat v0.0.0-20200810204819-bd52f7666e61 h1:n2YCxCDB7fOagmLifNmsytlWdjkhU/rNkcuX9uJwRQg=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/labstack/echo v3.3.10+incompatible/go.mod h1:0INS7j/VjnFxD4E2wkz67b8cVwCLbBmJyDaka6Cmk1s=
 github.com/labstack/gommon v0.3.0/go.mod h1:MULnywXg0yavhxWKc+lOruYdAhDwPK9wf0OL7NoOu+k=

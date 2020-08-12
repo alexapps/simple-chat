@@ -1,4 +1,4 @@
-package chat
+package groups
 
 import (
 	logInst "github.com/alexapps/simple-chat/back/api/log"

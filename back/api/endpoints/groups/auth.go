@@ -1,6 +1,7 @@
-package auth
+package groups
 
 import (
+	auth "github.com/alexapps/simple-chat/back/api/auth/handlers"
 	logInst "github.com/alexapps/simple-chat/back/api/log"
 
 	"github.com/labstack/echo"

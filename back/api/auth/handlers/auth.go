@@ -3,7 +3,9 @@ package auth
 import (
 	"net/http"
 
+	authModel "github.com/alexapps/simple-chat/back/api/auth/models"
 	log "github.com/alexapps/simple-chat/back/api/log"
+	"github.com/labstack/echo"
 )
 
 // AuthHandler -
@@ -19,19 +21,21 @@ func NewAuthHandler(loggerInst *log.Logger) *AuthHandler {
 }
 
 // SignUp - register
-func (ah *AuthHandler) SignUp() error {
-	var rsp SignUpResponse
+func (ah *AuthHandler) SignUp(c echo.Context) error {
+	var rsp authModel.SignUpResponse
 	//TODO
 	return c.JSON(http.StatusOK, rsp)
 }
 
 // SignIn - log in
-func (ah *AuthHandler) SignIn() error {
+func (ah *AuthHandler) SignIn(c echo.Context) error {
+	var rsp authModel.SignInResponse
 	//TODO
 	return c.JSON(http.StatusOK, rsp)
 
 }
-func (ah *AuthHandler) SignOut() error {
+func (ah *AuthHandler) SignOut(c echo.Context) error {
+	var rsp authModel.SignOutResponse
 	//TODO
 	return c.JSON(http.StatusOK, rsp)
 

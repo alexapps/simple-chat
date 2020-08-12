@@ -2,6 +2,7 @@ package constants
 
 const (
 	// Logger related
-	LOG_INFO  = "info"
-	LOG_ERROR = "error"
+	LOG_INFO  = "INFO"
+	LOG_ERROR = "ERROR"
+	LOG_FATAL = "FATAL"
 )

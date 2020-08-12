@@ -8,6 +8,10 @@ package models
 type SignUpResponse struct {
 }
 
+// SignOutResponse -
+type SignOutResponse struct {
+}
+
 // SignInResponse - Log in
 type SignInResponse struct {
 	Token          string `json:"token"`
